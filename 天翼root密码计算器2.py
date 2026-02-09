@@ -24,7 +24,7 @@ def generate_a1(hex_str):
         'NXMcKdfwRkshJHkFaUgFtdbYYFdeASGNZfHZghMHzEyDEUJTDCxsCKjBaFkEutSrjbFmvVMqhBcwBnNkAGtAxRTpDHWzQuPmYXwyqpvngXIJRrsfcPWVSKdCQbNUTaMe',
         'eMaTUNbQCdKSVWPcfsrRJIXgnvpqywXYmPuQzWHDpTRxAtGAkNnBwcBhqMVvmFbjrStuEkFaBjKCsxCDTJUEDyEzHMhgZHfZNGSAedFYYbdtFgUaFkHJhskRwfdKcMXN',
         'CbntTaMGFPWTSkdCtXIYRrsfaXyyqpvRbHWAJuPSAGtacRTpVKcmBnNevbFMvSMPDFkEuRSDXCssCKjszEyDEUJCZfckghBHYFseASaNaUgFPfbYRLSubTkFKXMcKdfH',
-        'gXIJRrsfNXMcKdfwYXwZqpvnQuPmDHWzAGtQxRTpjbFmvVMqDCxsjBCKzEyDEUJTHbCwBnIkZfHZghMHYASGFdeNcPWVSKdCaUgFtdbYRkshJHkF'+'QbNUTaMeaFkLutSr'
+        'gXIJRrsfNXMcKdfwYXwZqpvnQuPmDHWzAGtQxRTpjbFmvVMqDCxsjBCKzEyDEUJTHbCwBnIkZfHZghMHYASGFdeNcPWVSKdCaUgFtdbYRkshJHkFQbNUTaMeaFkLutSr'
     ]
     hex_clean = ''.join(c for c in hex_str.upper() if c in '0123456789ABCDEF')
     if len(hex_clean) < 12: return "MAC错误"
@@ -91,3 +91,4 @@ if __name__ == "__main__":
         if user_choice.lower() != 'y':
             print("退出程序。")
             break
+
